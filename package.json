@@ -8,16 +8,16 @@
   "devDependencies": {
     "benchmark": "^2.1.0",
     "browserify": "^13.0.0",
-    "eslint": "^2.7.0",
+    "eslint": "^3.12.2",
     "eslint-config-mourner": "^2.0.1",
     "istanbul": "^0.4.3",
     "node-vincenty": "0.0.6",
     "tape": "^4.5.1",
-    "turf": "^2.0.2",
+    "@turf/turf": "^3.7.1",
     "typescript": "^2.1.4"
   },
   "scripts": {
-    "pretest": "eslint index.js bench test/*.js && npm run types",
+    "pretest": "eslint index.js bench test/test.js test/precision.js && npm run types",
     "test": "tape test/test.js",
     "types": "tsc test/types.ts",
     "build": "browserify index.js -s cheapRuler > cheap-ruler.js",
