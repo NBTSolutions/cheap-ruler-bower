@@ -1,5 +1,7 @@
 # cheap-ruler [![Build Status](https://travis-ci.org/mapbox/cheap-ruler.svg?branch=master)](https://travis-ci.org/mapbox/cheap-ruler) [![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)
 
+This is a fork of the original cheap-ruler that provides Bower support.
+
 A collection of very fast approximations to common geodesic measurements.
 Useful for performance-sensitive code that measures things on a city scale.
 
